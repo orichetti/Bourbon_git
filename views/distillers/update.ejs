@@ -1,0 +1,55 @@
+<html>
+    <body class="body">
+        <h2>Need to make a change?</h2>
+        <form method="post" action="/distillers/update/id?_method=PATCH"></form>
+        <form method="post" action="/distillers/update/id?_method=PATCH" id="form">
+            <fieldset id="fset">
+                <legend id="fset">Update Collection Here...</legend>
+                <div class="container1">
+                    <label for="id" id="label">ID</label>
+                    <input type="text" name="id" class="input">
+                </div>
+                <div class="container1">
+                    <label for="name" id="label">Name</label>
+                    <input type="text" name="name" class="input">
+                </div>
+                <div class="container1">
+                    <label for="brand" id="label">Brand</label>
+                    <input type="text" name="brand" class="input">
+                </div>
+                <div class="container1">
+                    <label for="distiller" id="label">Distillery</label>
+                    <input type="text" name="distiller" class="input">
+                </div>
+                <div class="container1">
+                    <label for="age" id="label">Age</label>
+                    <input type="text" name="age" class="input">
+                </div>
+                <div class="container1">
+                    <label for="proof" id="label">Proof</label>
+                    <input type="text" name="proof" class="input">
+                </div>
+                <div class="container1">
+                    <label for="alcVol" id="label">AlclVol</label>
+                    <input type="text" name="alcVol" class="input">
+                </div>
+                <div class="container1">
+                    <label for="type" id="label">Type</label>
+                    <input type="text" name="type" class="input">
+                </div class="container1">
+                <div class="container1">
+                    <label for="size" id="label">Size</label>
+                    <input type="text" name="size" class="input">
+                </div>
+                <div class="container1">
+                    <label for="distWebsite" id="label">Website</label>
+                    <input type="text" name="distWebsite" class="input">
+                </div>
+                <div class="container1">
+                    <a href="/" id="caution">Cancel</a>
+                    <input type="submit" value="Update Bourbon" id="bColor">
+                </div>
+            </fieldset>
+        </form>
+        <%= bourbon %> 
+    </body>
