@@ -1,0 +1,31 @@
+<h2>View All Bourbon in Collection</h2>
+<body>
+    <% data.forEach((name) => { %>
+        <div class="container2">
+            <form class="body" method="post" action="/distillers/update/id?_method=PATCH" id="formView">
+                <fieldset id="fset">
+                    <legend id="legend">~~<%= name.rowid %> bottles of bourbon on the wall...</legend><br>
+                    <li><i><strong>ID:</strong></i><input type="text" name="id" id="inId" value="<%= name.rowid %>">
+                        <i><strong>Name:</strong></i><input type="text" name="name" id="inForm" value="<%= name.name %>">
+                        <i><strong>Brand:</strong></i><input type="text" name="brand" id="inForm" value="<%= name.brand %>">
+                        <i><strong>Distillery:</strong></i><input type="text" name="distiller" id="inBig" value="<%= name.distiller %>">
+                        <i><strong>Age/Years:</strong></i><input type="text" name="age" id="inId" value="<%= name.age %>">
+                        <i><strong>Proof:</strong></i><input type="text" name="proof" id="inId" value="<%= name.proof %>">
+                        <i><strong>Alc/Vol%:</strong></i><input type="text" name="alcVol" id="inId" value="<%= name.alcVol %>">
+                        <i><strong>Size/ml:</strong></i><input type="text" name="size" id="inId" value="<%= name.size %>">
+                        <i><strong>Website:</strong></i><input type="text" name="distWebsite" id="inBig" value="<%= name.distWebsite %>">
+                        <input type="submit" value="Update Bourbon" id="bColor"><br><br>
+                        <form method="post" action="/distillers/remove/id?_method=DELETE"></form>
+                        <fieldset id="fset">
+            </form>
+                            <form method="post" action="/distillers/remove/id?_method=DELETE">
+                                <a href="/" id="caution">Cancel</a>
+                                <input type="hidden" name="id" id="inId" value="<%= name.rowid %>">
+                                <input type="submit" value="Remove Bourbon" id="bColor">
+                            </form>
+                    </li> 
+                </fieldset>
+            </form>
+        </div>
+    <% }) %>
+</body>
