@@ -1,0 +1,97 @@
+.input {
+    background: lightyellow;
+    color: sienna;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#formHeader {
+    border: 3px solid blue; 
+    border-radius: 5px;
+    background: lightGrey;
+    color: darkslategrey;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#form {
+    border: 3px solid blue; 
+    border-radius: 5px;
+    background: lightGrey;
+    color: darkslategrey;
+    width:400px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#formView {
+    border: 3px solid blue; 
+    border-radius: 5px;
+    background: lightGrey;
+    color: darkslategrey;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#label{
+    width: 75px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#inId {
+    width: 35px;
+    background: lightyellow;
+    color: sienna;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#inForm {
+    width: 150px;
+    background: lightyellow;
+    color: sienna;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#inBig {
+    width: 200px;
+    background: lightyellow;
+    color: sienna;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#bColor {
+    background: #4682B4;
+    color: white;
+}
+
+#fset {
+    color: blue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#caution {
+    color: crimson;
+    margin: 5px;
+}
+
+#legend {
+    color: sienna;
+}
+
+#href {
+    color: sienna;
+}

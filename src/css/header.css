@@ -1,0 +1,45 @@
+.container {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.container1 {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+
+.container2 {
+    width:99%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    color: maroon;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-stroke: 2px white
+}
+
+#mainHeader {
+    background-image: url(../img/Barrels2.jpg);
+    color: lightGrey;
+    border: 3px solid rgb(44, 6, 6);
+    border-radius: 5px;
+}
+
+h2 { 
+    margin-top: 10px;
+    display: flex;
+    color: maroon;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+ }
+

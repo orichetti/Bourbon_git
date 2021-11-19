@@ -1,0 +1,32 @@
+.background {
+    padding:10px;
+    margin: 10px;
+    border: solid maroon;
+    border-radius: 5px;
+    /* background-image: url(../img/Barrels.jpg);
+    background-blend-mode: lighten;
+    object-fit: fill;
+    position: relative;
+    -webkit-filter: blur(10px); */
+}
+
+.mainPaige {
+    padding:10px;
+    margin: 10px;
+    border: solid blue;
+    border-radius: 5px;
+    background: lightgrey;
+    position: relative;
+    justify-content: center;
+}
+
+.pic {
+    padding:5px;
+    margin: 10px;
+    border: solid maroon;
+    border-radius: 5px;
+    object-fit: fill;
+    background: maroon;
+    position: relative;
+    /* left: 80px; */
+}
