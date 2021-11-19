@@ -1,0 +1,24 @@
+<html>
+    <body class="body">
+        <form method="POST" action="/distillers/remove/id?_method=DELETE" ></form>
+            <form method="POST" action="/distillers/remove/id?_method=DELETE" id="form">
+                <fieldset id="fset">
+                    <legend id="fset">Sadly Remove a bottle here...</legend>
+                    <div class="container1">
+                        <label for="id">ID</label>
+                        <input type="text" name="id" id="inId">
+                        <a href="/" id="caution">Cancel</a>
+                        <input onclick="addToDB()" type="submit" value="Remove Bourbon" id="bColor">
+                    </div>
+                </fieldset>
+            </form>
+        <br><br><br>
+        <%= bourbon %>
+    </body>
+    <script type="text/javascript">
+        function addToDb(){
+            var rowid = document.getElementById("id").value 
+            alert(rowid)
+        }
+    </script>
+</html>
